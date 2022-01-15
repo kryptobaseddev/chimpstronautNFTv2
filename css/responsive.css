@@ -1,0 +1,595 @@
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    border-color: #161816;
+    background: #161816;
+}
+@media screen and (max-width: 1191px) and (min-width: 767px) {
+    .main_box_big{
+        width: 97% !important;
+    }
+    .small_multi_boxes .box_ani.my_single .img_content h2, .finish_box h2  {
+        font-size: 25px;
+            line-height: 33px;
+            margin-right: 0px;
+    }
+    .farm_page .small_multi_boxes .box_ani {
+        width: 48%;
+        padding: 25px 25px;
+    }
+    .farm_page .small_multi_boxes .sm_img {
+        height: auto;
+        width: 60px;
+    }
+    .tba_box {
+        width: 100%;
+    }
+    .small_ajax_boxes .col-sm-3 {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (max-width: 1191px) {
+    .single_low_info .low_cols {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media (min-width: 991px) {
+    .navbar-default .navbar-toggle{
+        display: none;
+    }
+
+    .menu a.navbar-brand.logo{
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .navbar a.navbar-brand.logo{
+        display: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-brand {
+        float: none;
+    }
+    .menu a.navbar-brand.logo {
+        padding: 6px;
+        display: block;
+    }
+    .menu a.navbar-brand.logo img {
+        height: 54px !important;
+    }
+    .menu .navbar-collapse {
+        padding-top: 55px !important;
+    }
+}
+@media (min-width: 767px) {
+    .menu .navbar-collapse li a span{
+        opacity: 1;
+    }
+    .adjust .menu .navbar-collapse li a span{
+        opacity: 0;
+    }
+    .adjust_click.adjust .menu .navbar-collapse {
+        width: 220px !important;
+    }
+    .adjust_click.adjust .menu .navbar-collapse .navbar-nav {
+        padding: 0px;
+    }
+    .adjust_click.adjust .menu .navbar-collapse .nav>li>a{
+        text-align: left !important;
+        border-radius: 0px !important;
+    }
+    .adjust_click.adjust .menu .navbar-collapse li a span {
+        opacity: 1;
+        height: auto;
+        width: auto;
+        display: block;
+    }
+    .small_multi_boxes .box_ani:before{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .right_cutom_btns {
+        display: none;
+    }
+    .menu .navbar-collapse{
+        display: block;
+    }
+    .navbar-header{
+        padding: 0px 15px;
+    }
+    .navbar-default .navbar-toggle .main_menu_icons {
+        display: none;
+    }
+    .navbar-default .navbar-toggle .click_icon {
+        display: block;
+    }
+    .navbar-default .navbar-toggle.collapsed .main_menu_icons {
+        display: block;
+    }
+    .navbar-default .navbar-toggle.collapsed .click_icon {
+        display: none;
+    }
+    .menu .navbar-collapse {
+        left: 0px;
+        overflow: hidden;
+        width: 0px !important;
+    }
+    .menu .navbar-collapse.in {
+        width: 250px !important;
+    }
+
+    .adjust .menu .navbar-collapse, .mob_adjust .menu .navbar-collapse{
+        width: 0px !important;
+    }
+    .adjust .menu .navbar-collapse{
+        width: 220px!important;
+    }
+    .socials{
+        display: none;
+    }
+    .adjust .socials{
+        display: block;
+    }
+    .mob_adjust.adjust .menu .navbar-collapse li a span{
+        display: none;
+    }
+    .mob_adjust.adjust .menu .navbar-collapse li a span{
+        display: block;
+        opacity:1;
+        height: auto;
+        width: auto;
+    }
+    .mob_adjust.adjust .menu .navbar-collapse .nav>li>a:focus, .mob_adjust.adjust .menu .navbar-collapse .nav>li>a:hover, .mob_adjust.adjust .menu .navbar-collapse .nav>li.active a{
+        background-color: #2b7af138;
+        border-radius: 0px;
+        text-align: left;
+    }
+    .mob_adjust.adjust .menu .navbar-collapse .nav>li>a{
+        text-align: left;
+    }
+    .adjust .menu .navbar-collapse .navbar-nav {
+        margin-right: 0px;
+        padding: 10px 0px;
+        padding-bottom: 50px;
+    }
+    .menu .nav li.active:before {
+        display: none;
+    }
+    .mob_adjust.adjust .menu .nav li.active:before {
+        position: absolute;
+        content: "";
+        background: #77adff;
+        width: 7px;
+        height: 100%;
+        top: 0;
+        left: 0;
+        -webkit-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        transition: all 0.5s;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        display: block;
+    }
+    .back_handle, .adjust .back_handle{
+        margin-left: 0px;
+            margin-top: 61px;
+    }
+    .adjust_click.adjust .menu .navbar-collapse {
+        width: 220px !important;
+    }
+    .box_ani.my_single.main_box_big, .box_ani.my_single {
+        width: 96%;
+            padding: 15px 15px !important;
+    }
+    .img_here .im_logo {
+        height: 55px;
+    }
+    .top_home{
+        margin-bottom: 0px;
+    }
+    .box_ani.my_single .img_content h2, .finish_box h2  {
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .multi_boxes .col-sm-3 {
+        width: 50%;
+        float: left;
+    }
+    a.navbar-brand.logo img {
+        height: 49px;
+    }
+    .navbar-default .navbar-toggle {
+        margin-top: 8px;
+    }
+    a.navbar-brand.logo {
+        padding: 6px 4px;
+    }
+    .single_time .text_s {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .small_multi_boxes .box_ani, .farm_page .small_multi_boxes .box_ani {
+        width: 100%;
+        margin: 0px 0px;
+        margin-top: 30px;
+    }
+    .small_multi_boxes .box_ani.my_single .img_content h2, .single_low_info h3 {
+        font-size: 23px;
+        line-height: 35px;
+    }
+    .main_box_big .img_content h2{
+        margin-top: 0px;
+    }
+    .farm_page .top_home p, .lottery_page .top_home p {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
+        padding: 9px 15px 9px 25px;
+    }
+    .adjust .top_bottom {
+        display: block;
+    }
+    .switch_here {
+        float: none;
+    }
+    .small_multi_boxes .nav-tabs {
+        float: none;
+        margin-left: 0px;
+        margin-top: 14px;
+    }
+    .single_time .text_s {
+        height: 113px;
+        width: 113px;
+        line-height: 96px;
+        font-size: 15px;
+        border: 5px solid #a0c6ff;
+    }
+    .small_multi_boxes .box_ani:before{
+        display: none;
+    }
+    .index_page .small_multi_boxes .box_ani {
+        margin-top: 30px;
+        min-height: 200px;
+    }
+    .farm_page .small_multi_boxes .box_ani{
+            border-radius: 10px;
+            padding: 15px 17px;
+    }
+    .small_multi_boxes .nav-tabs li>a {
+        font-size: 16px;
+            padding: 7px 16px;
+    }
+    .box_ani.my_single {
+        border-radius: 12px;
+    }
+    .addreess_here {
+        padding: 11px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    .top_pos_icon{
+        display: none;
+    }
+    .lottery_page .box_ani.my_single {
+        margin-top: 0;
+    }
+    .refer_box  h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .menu .navbar-nav li a {
+        font-size: 15px;
+    }
+    .farm_page .small_multi_boxes .sm_img {
+        height: auto;
+        width: 60px;
+    }
+    .lottery_box {
+        margin-top: 22px;
+        border-radius: 9px;
+        padding: 20px 10px;
+    }
+    .other_btn a {
+        border-radius: 7px!important;
+        padding: 10px 27px;
+        font-weight: 600;
+        font-size: 14px !important;
+    }
+    .lottery_page .top_home h4 {
+    font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .lottery_main_top h2 {
+        font-size: 43px;
+    }
+    .lottery_main_top {
+        padding: 30px 13px;
+    }
+    .lottery_buy_box h4 span {
+        font-size: 33px;
+    }
+
+    .tba_box {
+        width: 100%;
+        border-radius: 8px;
+    }
+    .tba_box .head_box {
+        padding: 12px 20px;
+    }
+    .tba_box .head_box h4 {
+        font-size: 20px;
+    }
+    .box_ani.my_single .head_box p {
+        padding: 0px 0px;
+    }
+    .body_box {
+        padding: 30px 20px;
+    }
+    .small_pricess .heading_price {
+        font-size: 19px;
+    }
+    .small_pricess .body_price {
+        padding-left: 15px;
+    }
+    .small_pricess .body_price h3 {
+        font-size: 24px;
+    }
+
+    .small_ajax_boxes .col-sm-3 {
+        width: 50%;
+        float: left;
+    }
+    .line_top, .small_ajax_boxes .col-sm-3 {
+        padding: 0px 5px;
+    }
+    .sn_box_body h4 {
+        font-size: 16px !important;
+    }
+    .sn_box_body h2 {
+        margin-bottom: 5px;
+        font-size: 20px !important;
+    }
+    .hiff .clickkk {
+        padding: 13px 20px;
+        font-size: 16px;
+    }
+    .conn_wallet h3 {
+        font-size: 22px;
+        line-height: 32px;
+        padding-bottom: 10px !important;
+    }
+    .conn_wallet {
+        padding: 30px 20px;
+    }
+    .tba_box_history .body_box {
+        padding: 60px 20px;
+    }
+    .small_lotter_boxes {
+        padding: 40px 10px;
+    }
+    .lottery_page .back_handle .box_ani.my_single{
+        margin-bottom: 15px;
+    }
+    .small_lotter_boxes .small_multi_boxes .box_ani h6 {
+        text-align: left;
+    }
+    .single_low_info {
+        padding: 40px 15px;
+    }
+    .tx_graph {
+        padding: 20px 5px;
+    }
+    .mix_top h5 {
+        float: left !important;
+        width: 50%;
+    }
+    .mix_top h5.pull-right {
+        float: right !important;
+        text-align: right;
+    }
+    .sn_report p.pull-left span.bg {
+        height: 13px;
+        width: 13px;
+        top: 3px;
+    }
+    .sn_report p {
+        font-size: 15px;
+    }
+    .sn_report p.pull-left span.text {
+        padding-left: 20px;
+    }
+    .single_low_info .low_cols.col-sm-5{
+        padding: 0px;
+    }
+    .single_low_info h4 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .single_low_info p, .single_low_info li {
+        font-size: 15px;
+    }
+    .coming {
+        font-size: 23px;
+        line-height: 29px;
+        margin-bottom: 20px;
+    }
+    .nav>li, .navbar-header {
+        float: left;
+    }
+    .right_cutom_btns {
+        /* display: none; */
+        display: block;
+        float: right;
+    }
+    .navbar-toggle {
+        padding: 2px 4px;
+    }
+    .links_search .search_only {
+        padding: 7px 2px;
+        width: 72%;
+    }
+    .links_search .search_only {
+        margin: 0px 2px;
+    }
+    .links_search .search_only .form-control {
+        height: 31px;
+    }
+    .links_search .search_only span {
+        top: 12px;
+    }
+    .right_cutom_btns {
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbar-default .navbar-nav li a, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+        border: 0px;
+    }
+    .navbar-default .navbar-nav li a {
+        padding: 13px 10px !important;
+    }
+    .address_line {
+       padding: 4px 5px;
+    }
+    .address_line {
+        font-weight: 500;
+        font-size: 15px;
+        display: none;
+    }
+    .carts_custom {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .single_cart{
+        margin-top: 0px;
+    }
+    .card_icon {
+        width: 54px;
+    }
+    .cols_tops:last-child .single_cart .card_icon{
+        margin-bottom: 0px;
+    }
+
+    .box_ani.my_single .img_content h2 {
+        font-size: 25px;
+        line-height:32px;
+    }
+    .box_ani.my_single.main_box_big .img_content h2 {
+        margin-bottom: 14px !important;
+    }
+    .some_line_box_handle.box_ani.my_single .img_content h2 {
+        width:100%;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .small_multi_boxes .box_ani.my_single .img_content h3 {
+        font-size: 19px;
+        line-height: 27px;
+    }
+    .small_multi_boxes .box_ani.my_single .img_content h2 {
+        font-size: 21px;
+        line-height: 27px;
+        margin-bottom: 10px !important;
+    }
+    .small_multi_boxes {
+        width: 97%;
+    }
+    .main_home .top_home h2 {
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .top_home {
+        padding: 7px 0px;
+    }
+    .top_home p {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom:  0px;
+    }
+    .navbar:before {
+        top: 46px;
+    }
+}
+@media (max-width: 550px) {
+    .box_ani.my_single .img_content h2, .finish_box h2, .single_low_info h3 {
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .farm_page .top_home p, .lottery_page .top_home p {
+        font-size: 23px;
+        line-height: 31px;
+    }
+    .top_home {
+        margin-bottom: 0px;
+    }
+    .small_multi_boxes .sm_img {
+        top: -2px;
+    }
+    .lottery_main_top h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .tba_box .head_box h4{
+        float: none !important;
+        text-align: center;
+        padding-bottom: 7px;
+    }
+    .small_pricess .body_price h3 {
+        font-size: 21px;
+    }
+    .small_pricess .heading_price {
+        font-size: 16px;
+    }
+    .lottery_buy_box h4 span {
+        font-size: 20px;
+    }
+    .lottery_buy_box h4 {
+        font-size: 16px;
+    }
+    .small_lotter_boxes h5 {
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .navbar-header{
+        padding-right: 0px;
+    }
+    .navbar-toggle{
+        margin-right: 0px;
+    }
+    .links_search {
+        width: 88%;
+    }
+    .navbar-default .navbar-nav li a {
+        padding: 13px 1px !important;
+    }
+    .navbar{
+            padding: 5px 0px;
+    }
+    .search_only, .right_cutom_btns{
+        float: right !important;
+    }
+
+    .some_line_box_handle.box_ani.my_single .search_only {
+        width: 100%;
+    }
+    .some_line_box_handle.box_ani.my_single .form-control {
+        margin-top: 0;
+    }
+    .small_multi_boxes .box_ani.my_single .custom_table .hight {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 400px) {
+    .small_ajax_boxes .col-sm-3{
+        float: none;
+        width: 100%;
+    }
+}

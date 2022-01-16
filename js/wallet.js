@@ -11,7 +11,7 @@ var BUSDContractAddress = '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56';
 
 var web3;
 var contract;
-var jsonBaseAddress = "https://cryptodesigns.mypinata.cloud/ipfs/QmS8FM8MNpMakBaEpasCsSwvtnjRrt9JUSQGvEGTGZvMxk/"
+var jsonBaseAddress = "https://cryptodesigns.co/nft/"
 const MAINNET = "56";
 const Web3Modal = window.Web3Modal.default;
 const WalletConnectProvider = window.WalletConnectProvider.default;
